@@ -35,6 +35,7 @@ public class MainController {
         // 将所有记录传递给要返回的jsp页面，放在userList当中
         modelMap.addAttribute("userList", userList);
 
+
         // 返回pages目录下的admin/users.jsp页面
         return "admin/users";
     }
