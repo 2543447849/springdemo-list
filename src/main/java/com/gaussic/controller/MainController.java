@@ -32,7 +32,6 @@ public class MainController {
         // 查询user表中所有记录
         List<UserEntity> userList = userRepository.findAll();
 
-
         // 将所有记录传递给要返回的jsp页面，放在userList当中
         modelMap.addAttribute("userList", userList);
 
