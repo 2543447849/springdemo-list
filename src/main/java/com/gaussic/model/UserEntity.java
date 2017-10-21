@@ -74,6 +74,7 @@ public class UserEntity {
         UserEntity that = (UserEntity) o;
 
 
+
         if (id != that.id) return false;
         if (nickname != null ? !nickname.equals(that.nickname) : that.nickname != null) return false;
         if (password != null ? !password.equals(that.password) : that.password != null) return false;
