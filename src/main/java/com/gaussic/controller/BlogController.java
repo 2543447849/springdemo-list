@@ -26,6 +26,7 @@ public class BlogController {
     @Autowired
     UserRepository userRepository;
 
+
     // 查看所有博文
     @RequestMapping(value = "/admin/blogs", method = RequestMethod.GET)
     public String showBlogs(ModelMap modelMap) {
