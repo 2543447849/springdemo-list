@@ -74,4 +74,18 @@
 
     <!-- 开启事务管理注解 -->
     <tx:annotation-driven transaction-manager="transactionManager"/>
+
+
+
+    <!--&lt;!&ndash; 视图模式配置,velocity配置文件&ndash;&gt;-->
+    <!--<bean id="velocityConfig" class="org.springframework.web.servlet.view.velocity.VelocityConfigurer">-->
+        <!--<property name="resourceLoaderPath" value="/WEB-INF/pages/admin" />-->
+        <!--<property name="configLocation" value="/WEB-INF/velocity.properties" />-->
+    <!--</bean>-->
+
+    <!--&lt;!&ndash; 配置后缀 &ndash;&gt;-->
+    <!--<bean id="velocityViewResolver" class="org.springframework.web.servlet.view.velocity.VelocityViewResolver">-->
+        <!--<property name="suffix" value=".vm" />-->
+    <!--</bean>-->
+
 </beans>

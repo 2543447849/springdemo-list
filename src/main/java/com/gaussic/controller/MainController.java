@@ -94,7 +94,6 @@ public class MainController {
     // 更新用户信息 操作
     @RequestMapping(value = "/admin/users/updateP", method = RequestMethod.POST)
     public String updateUserPost(@ModelAttribute("userP") UserEntity user) {
-
         // 更新用户信息
         userRepository.updateUser(user.getNickname(), user.getFirstName(),
                 user.getLastName(), user.getPassword(), user.getId());
