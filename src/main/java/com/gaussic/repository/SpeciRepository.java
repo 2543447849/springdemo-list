@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
- * Created by dzkan on 2016/3/8.
+ * Created by qianxu on 2017/10/21.
  */
 @Repository
 public interface SpeciRepository extends JpaRepository<SpeciEntity, Integer> {

@@ -24,16 +24,16 @@
     <h1>SpringMVC 更新用户信息</h1>
     <hr/>
 
-    <form:form action="/admin/users/updateP" method="post" commandName="speciP" role="form">
+    <form:form action="/admin/speci/updateP" method="post" commandName="speciP" role="form">
         <div class="form-group">
             <label for="name"> name:</label>
             <input type="text" class="form-control" id="name" name="name" placeholder="Ente Name :"
                    value="${speci.name}"/>
         </div>
         <div class="form-group">
-            <label for="nickName"> nickName:</label>
-            <input type="text" class="form-control" id="nickName" name="nickName" placeholder="Ente nickName:"
-                   value="${speci.nickName}"/>
+            <label for="nickname"> nickName:</label>
+            <input type="text" class="form-control" id="nickname" name="nickname" placeholder="Ente nickName:"
+                   value="${speci.nickname}"/>
         </div>
         <div class="form-group">
             <label for="introduction"> introduction:</label>

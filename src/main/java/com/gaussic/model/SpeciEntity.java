@@ -42,7 +42,7 @@ public class SpeciEntity {
     }
 
     @Basic
-    @Column(name = "nickname", nullable = true, length = 45)
+    @Column(name = "nickname", nullable = false, length = 45)
     public String getNickname() {
         return nickname;
     }
